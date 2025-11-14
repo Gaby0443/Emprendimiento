@@ -27,7 +27,7 @@
   background-color: rgb(170, 169, 233);
   position: absolute;
   display: none;
-  width: 150px;
+  width: 9.375rem;
 }
 .Menu-Horizontal li a:hover {
   color: white;
@@ -39,16 +39,16 @@
 /*SECCION PRODUCTOS*/
 
 .seccion-productos {
-  padding: 60px 20px;
+  padding:3.75rem 1.25rem;
   background-color:rgba(247, 247, 247, 0.993);
 }
 .div-gral-productos {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width:75rem;
   margin: 0 auto;
-  gap: 40px;
+  gap: 2.5rem;
 }
 .div-prod-text {
   flex 1;
@@ -59,16 +59,16 @@
 .div-prod-text p{
   color: grey;
   line-height: 1.6;
-  font-size: 15px;
+  font-size: 0.938rem;
   text-align: justify;
 }
 .div-prod-text button {
-  margin-top: 20px;
-  padding: 10px 20px;
+  margin-top: 1.25rem;
+  padding: 0.625rem 1.25rem;
   background-color: rgb(170, 169, 233);
   color: black;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 .div-prod-text button a {
   text-decoration: none;
@@ -82,23 +82,23 @@
 }
 .div-prod-img img {
   width: 100%;
-  max-width:500px;
+  max-width:31.25rem;
 }
 
 
 
 /*SECCION APRENDE*/
 .seccion-aprende {
-  padding: 60px 20px;
+  padding: 3.75rem 1.25rem;
   background-color:white;
 }
 .div-gral-zona {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
-  gap: 40px;
+  gap: 2.5rem;
 }
 .div-zn-text{
   flex: 1;
@@ -109,7 +109,7 @@
 .div-zn-text p{
   color: grey;
   line-height: 1.6;
-  font-size: 15px;
+  font-size: 0.938rem;
   text-align: justify;
 }
 
@@ -118,57 +118,57 @@
 }
 .div-zn-video iframe {
   width: 100%;
-  max-width:500px;
+  max-width:31.25rem;
 }
 /*SECCION FORMULARIO*/
 .seccion-formulario{
   background-color:rgba(247, 247, 247, 0.993);
-  padding:40px;
-  border:3px;
+  padding:2.5rem;
+  border:0.188rem;
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 .div-cont-formulario{
   background-color: white;
-  padding: 30px;
-  border: 2px solid black;
-  border-radius: 10px;
+  padding: 1.875rem;
+  border:0.125rem solid black;
+  border-radius: 0.625rem;
   width:100%;
-  max-width: 500px;
+  max-width: 31.25rem;
 }
 .campo {
   background-color: rgba(170, 169, 233, 0.671);
-  border: 1px;
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  border:0.063rem;
+  padding: 0.938rem;
+  border-radius:0.5rem;
+  margin-bottom: 1.25rem;
 }
 .formulario-registro label{
   display:block;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   color:rgb(32, 118, 139);
 }
 .formulario-registro input[type="text"],.formulario-registro select {
   width: 100%;
   padding: 1%;
-  border:1px;
-  border-radius: 10px;
+  border:0.063rem;
+  border-radius:0.625rem;
   box-sizing: border-box;
 }
 .formulario-registro .lista-radio, .formulario-registro .lista-checkbox{
   list-style: none;
-  padding:10px;
+  padding:0.625rem;
   margin:0;
-  border: 1px;
+  border: 0.063rem;
   background-color: rgb(171, 162, 211);
 }
 .formulario-registro button {
   background-color: rgb(170, 169, 233);
   color: black;
   border: none;
-  border-radius: 8px;
-  padding: 10px 20px;
+  border-radius: 0.5rem;
+  padding: 0.625rem 1.25rem;
   cursor:pointer;
 }
