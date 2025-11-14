@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mi website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img
+          width="100"
+          height="70"
+          src="imgs/ovillo-removebg-preview.png"
+          alt=""
+        />
+      </a>
+      <ul class="Menu-Horizontal">
+        <li><a href="">¿Quienes somos?</a></li>
+        <li>
+          <a href="">Amigurumis</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Colecciones</a></li>
+            <li><a href="">Paquetes</a></li>
+            <li><a href="">Mostrar Todos</a></li>
+          </ul>
+        </li>
+        <li><a href="">Recuerdos</a></li>
+        <li><a href="">Souvenirs</a></li>
+        <li><a href = "#contactanos"> Contactanos </a></li>
+      </ul>
+    </nav>
+    <!-- SECCION PRODUCTOS-->
+<section class= "seccion-productos">
+  <div class= "div-gral-productos">
+      <div class="div-prod-text">
+        <h2> Producto 100% Hecho a mano y con materiales de calidad</h2>
+        <p> Nuestros productos son hechos 100% a mano de inicio a fin para aumentar su calidad.</p>
+        <button> <a href=""> Mas info</a> </button>
+      </div>
+      <div class= "div-prod-img">
+        <img src="imgs/Capture.PNG" >
+      </div>
+    </section>
+          <!-- ZONA DIGITAL-->
+<section class= "seccion-aprende">
+  <div class= "div-gral-zona">
+      <div class="div-zn-text">
+        <h2> Aprende a Tejer de forma sencilla </h2>
+        <p> Para aprender a tejer, necesitas los materiales básicos como agujas (o ganchillo), hilo o lana del grosor adecuado y tijeras. Comienza con los fundamentos: haz el nudo deslizado o de inicio, monta los primeros puntos y practica la puntada básica (del derecho y del revés). Para tejer con ganchillo, aprende a hacer cadenas y puntos bajos; para dos agujas, practica montar puntos y tejer derecho y revés.  </p>
+      </div>
+      <div class= "div-zn-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FRPKcZpsxk4?si=rrTZ2VfONBZBdh-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+  </div>
+  <section class="seccion-formulario" id="contactanos">
+    <div class="div-cont-formulario">
+    <h2> Formulario de Registro</h2>
+    <p>Complete todos los campos...</p>
+    <form class="formulario-registro">
+      <!--INPUT:TEXT-->
+      <div class="campo">
+      <label for="Nombres">Nombres Completos </label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ingrese sus nombres"> </input>
+      </div>
+      <!--LISTA DESPLEGABLE-->
+      <div class="campo">
+      <label for="Nombres">Pais</label>
+      <select id="pais" name="pais">
+        <option value="">Seleccione un Pais</option>
+        <option value ="peru"> Peru </option>
+        <option value ="colombia"> Colombia </option>
+        <option value ="argentina"> Argentina </option>
+        <option value ="mexico"> Mexico </option>
+      </select>
+      </div>
+      <!--CHECKBOX-->
+      <div class="campo">
+      <label>Intereses: </label>
+      <ul class="lista-checkbox">
+        <li><label><input type="checkbox" name="intereses" value="Llaveros">Llaveros</input></label></li>
+        <li><label><input type="checkbox" name="intereses" value="Centros">Centros de Mesa</input></label></li>
+        <li><label><input type="checkbox" name="intereses" value="Animales">Animales Tejidos</input></label></li>
+        <li><label><input type="checkbox" name="intereses" value="Personajes">Personajes Ficticios</input></label></li>
+      </ul>
+      </div>
+      <!--RADIO-->
+      <div class="campo">
+        <label>Genero: </label>
+        <ul class="lista-radio">
+          <li><label><input type="radio" name="genero" value="a">Masculino</input></label></li>
+          <li><label><input type="radio" name="genero" value="f">Femenino</input></label></li>
+         </ul>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+    </div>
+  </section>
+    <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="imgs/ovillo-removebg-preview.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>Tunagurumi</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/obtenerDocumento.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
