@@ -30,7 +30,7 @@
   width: 9.375rem;
 }
 .Menu-Horizontal li a:hover {
-  color: white;
+  color: rgb(103, 146, 238);
 }
 .Menu-Horizontal li:hover .Menu-Vertical {
   display: Block;
